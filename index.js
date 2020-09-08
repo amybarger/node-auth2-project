@@ -5,7 +5,7 @@ const session = require("express-session");
 const usersRouter = require("./users/users-router");
 
 const server = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 7070;
 
 server.use(helmet());
 server.use(cors());
